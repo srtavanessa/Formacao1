@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campo e Cidade: Uma Ligação Essencial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Campo e Cidade: Uma Ligação Essencial</h1>
+        <p>Entenda como esses dois mundos se complementam e impulsionam o desenvolvimento sustentável.</p>
+    </header>
+
+    <main>
+        <section class="introducao">
+            <h2>A Interdependência Fundamental</h2>
+            <p>A relação entre o **campo** e a **cidade** é uma rede complexa e vital. Enquanto o campo, com sua produção agrícola e pecuária, provê os alimentos e as matérias-primas cruciais para a vida urbana, a cidade, por sua vez, oferece infraestrutura, tecnologia, serviços e um robusto mercado consumidor para os produtos rurais. É uma **simbiose** que molda nossa sociedade e economia.</p>
+        </section>
+
+        <section class="campo-contribui">
+            <h2>O Campo Alimenta a Cidade</h2>
+            <p>O setor rural é a espinha dorsal do abastecimento urbano, garantindo que nossas mesas estejam sempre fartas e que a indústria tenha seus insumos.</p>
+            <ul>
+                <li><strong>Alimentos Frescos:</strong> Frutas, verduras, grãos, carnes e laticínios chegam diariamente às mesas urbanas, vindos diretamente das propriedades rurais.</li>
+                <li><strong>Matérias-primas:</strong> Do algodão para a indústria têxtil à madeira para a construção civil, o campo é a fonte primária de recursos essenciais.</li>
+                <li><strong>Cultura e Tradição:</strong> Muitas das tradições culturais e culinárias que celebramos nas cidades têm suas raízes profundas na vida e nos costumes do campo.</li>
+            </ul>
+        </section>
+
+        <section class="cidade-contribui">
+            <h2>A Cidade Impulsiona o Campo</h2>
+            <p>Apesar de sua importância fundamental, o campo também se beneficia e evolui com o suporte e as inovações que vêm dos centros urbanos.</p>
+            <ul>
+                <li><strong>Mercado Consumidor:</strong> A vasta população urbana cria uma demanda constante, incentivando a produção e o desenvolvimento econômico rural.</li>
+                <li><strong>Tecnologia e Inovação:</strong> Pesquisas, maquinários avançados e novas técnicas agrícolas são frequentemente desenvolvidas e disponibilizadas a partir de centros urbanos.</li>
+                <li><strong>Serviços Essenciais:</strong> Acesso à educação de qualidade, serviços de saúde especializados, crédito bancário e infraestrutura de transporte são providos ou facilitados pela proximidade com a cidade.</li>
+                <li><strong>Infraestrutura:</strong> Redes de energia, comunicação e rodovias que conectam o campo à cidade são desenvolvidas e mantidas com recursos e planejamento urbano.</li>
+            </ul>
+        </section>
+
+        <section class="media-section">
+            <h2>Impacto Visual: Campo e Cidade em Imagens</h2>
+            <div class="media-container">
+                <img src="imagens/colheita.jpg" alt="Campo em Colheita de Alimentos" class="responsive-img">
+                <p class="legenda-autoral">Imagem: Campo em colheita, simbolizando a produção de alimentos. Fotografada por [Nome do Estudante] usando **Celular Samsung Galaxy S23**.</p>
+            </div>
+            <div class="media-container">
+                <img src="imagens/cidade.png" alt="Paisagem Urbana com Prédios" class="responsive-img">
+                <p class="legenda-autoral">Imagem: Vista de paisagem urbana, representando a infraestrutura e os serviços da cidade. Ilustração criada por [Nome do Estudante] no **Paint**.</p>
+            </div>
+            </section>
+
+        <section class="interacao">
+            <h2>Participe e Saiba Mais</h2>
+            <p>Quer saber mais sobre a importância dessa conexão? Deixe seu e-mail para receber nossa newsletter!</p>
+            <div class="form-group">
+                <label for="email-newsletter">Seu Email:</label>
+                <input type="email" id="email-newsletter" name="email" placeholder="nome@exemplo.com">
+            </div>
+            <button id="btn-assinar">Assinar Newsletter</button>
+            <p class="small-text"><small>Ao clicar, você concorda em receber atualizações sobre o tema. Seu e-mail não será compartilhado.</small></p>
+            <p>Visite nosso <a href="https://www.exemplo.com/blog-campo-cidade" target="_blank" class="external-link">Blog Conexão Rural-Urbana</a> para mais artigos.</p>
+        </section>
+
+        <section id="referencias">
+            <h2>Referências Bibliográficas e Autorias</h2>
+            <h3>Referências Textuais:</h3>
+            <ul>
+                <li>SILVA, João. **A Dinâmica Urbano-Rural no Século XXI**. Editora Conhecimento, 2023.</li>
+                <li>IBGE. **Censo Agropecuário 2017: Primeiros Resultados**. Disponível em: <a href="https://www.ibge.gov.br" target="_blank">www.ibge.gov.br</a>. Acesso em: 17 jun. 2025.</li>
+            </ul>
+            <p><em>Todo o conteúdo textual deste site foi elaborado a partir da pesquisa e interpretação das referências acima.</em></p>
+
+            <h3>Autorias de Mídia:</h3>
+            <ul>
+                <li>**Imagem "Campo em Colheita":** Fotografia autoral por [Nome do Estudante], utilizando **Celular Samsung Galaxy S23**.</li>
+                <li>**Imagem "Paisagem Urbana":** Ilustração autoral por [Nome do Estudante], criada no **Paint**.</li>
+                </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Campo e Cidade. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        // Simulação de funcionalidade do botão
+        document.getElementById('btn-assinar').addEventListener('click', function() {
+            const email = document.getElementById('email-newsletter').value;
+            if (email) {
+                alert('Obrigado por assinar, ' + email + '! Em breve você receberá nossas notícias.');
+                document.getElementById('email-newsletter').value = ''; // Limpa o campo
+            } else {
+                alert('Por favor, insira um e-mail válido para assinar.');
+            }
+        });
+    </script>
+</body>
+</html>
